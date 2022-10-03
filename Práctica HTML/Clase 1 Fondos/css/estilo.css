@@ -1,7 +1,11 @@
-body{
-    background-color: beige;
-    background-image: url("../imagenes/Fondo\ 1.jfif");
-    background-position: center center;
+body{background-color: beige;
+    background-image: url(https://picsum.photos/id/1000/5626/3635);
     background-attachment: fixed;
     background-size: cover;
-    }
+}
+
+.caja{
+    background-color: beige;
+width: 60%;
+margin: 50px auto;
+}
