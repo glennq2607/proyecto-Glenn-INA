@@ -1,0 +1,7 @@
+body{
+    background-color: beige;
+    background-image: url("../imagenes/Fondo\ 1.jfif");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
