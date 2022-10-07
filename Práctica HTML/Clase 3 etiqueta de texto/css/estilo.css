@@ -1,0 +1,9 @@
+body{background-color: beige;}
+.color{ 
+    color: blueviolet;
+       }
+       #formato{
+        color: red;
+        font-weight: bold;
+        text-decoration: underline;
+       }
