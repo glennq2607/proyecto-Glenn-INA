@@ -6,3 +6,19 @@ body{background-color: beige;}
     text-align: center;
     text-decoration: underline;
 }
+.menu{
+    background-color: darkgray;
+   
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+.menu li:hover{
+    background-color: rgba(224, 205, 35, 0.671);
+}
+.menu a{
+    text-decoration: none;
+}
