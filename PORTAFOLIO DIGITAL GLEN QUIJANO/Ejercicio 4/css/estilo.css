@@ -1,0 +1,17 @@
+body{background-color: blue;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+.caja{
+    background-color: beige;
+    width: 60%;
+    margin:50px auto;
+    padding: 20px;
+    text-align: justify;
+}
+.color{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
