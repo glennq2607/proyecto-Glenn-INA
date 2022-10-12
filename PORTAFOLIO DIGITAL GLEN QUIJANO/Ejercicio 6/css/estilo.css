@@ -1,0 +1,12 @@
+body{background-color: beige;}
+.caja{
+    background-color: beige;
+    width: 60%;
+    margin: 50px auto;
+    border: 2px solid;
+}
+.imagen{
+    box-shadow: 8px 8px gray;
+    border-radius: 15px;
+    width: 80px;
+}
