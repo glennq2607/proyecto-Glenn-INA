@@ -1,0 +1,6 @@
+body{background-color: beige;}
+.imagen{
+    box-shadow: 8px 8px gray;
+    border-radius: 15px;
+    width: 180px;
+}
