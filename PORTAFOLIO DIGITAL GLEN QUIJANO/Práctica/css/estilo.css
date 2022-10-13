@@ -1,2 +1,18 @@
 body{background-color: beige;}
 
+table{ margin: 30px auto;
+    border-collapse: collapse;
+}
+td{border: 2px solid black;
+}
+.ocultar{
+    border: none;
+}
+thead{
+    color: blue;
+    font-weight: bolder;
+}
+tbody{
+    color: brown;
+    font-weight: bolder;
+}
