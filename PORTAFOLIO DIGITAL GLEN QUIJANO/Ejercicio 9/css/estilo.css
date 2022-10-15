@@ -1,0 +1,36 @@
+body{background-color: beige;}
+#encabezado{
+    width: 1000px;
+    height: 100px;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: darkgoldenrod;
+}
+.venta{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    margin: 10px auto;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin: 20px;
+    list-style: none;  
+}
+.pie{
+    width: 1000px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: rgba(128, 128, 128, 0.37);
+}
+.pie{ text-align: center;
+}
+.caja{
+    width: 1000px;
+    height: 600px;
+    margin: 20px auto;
+    background-color: #F0E78C;
+}
+
