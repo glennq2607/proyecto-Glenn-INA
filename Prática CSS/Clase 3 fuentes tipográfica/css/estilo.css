@@ -1,0 +1,25 @@
+@font-face{ font-family: roboto;
+ src: url("../Roboto/Roboto-Regular.ttf");}
+ 
+body{background-color: beige;}
+.caja{ width: 380px;
+    background-color: cornflowerblue;
+    margin: 20px auto;
+    color: white;
+    padding: 15px;
+    text-align: justify;
+}
+.caja H1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: yellow;
+    text-shadow: 3px 10px gray;
+    text-decoration: underline double coral;
+    font-weight: bolder;
+}
+.caja p{
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    text-indent: 30px;
+}
