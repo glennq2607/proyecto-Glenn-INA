@@ -6,7 +6,7 @@ header{
 }
 
 nav li:hover{
-    background-color: black;
+    background-color: rgb(240, 236, 20);
 }
 header,section,nav,footer{
     height: 96%;
@@ -36,12 +36,13 @@ footer{
 nav{
     display: flex;
     list-style: none;
+    justify-content: center;
    
 }
 nav a{
     text-decoration: none;
     margin: 20px;
-    
+    color: azure;
 }
 .azul{
     color: blue;
@@ -63,3 +64,41 @@ nav a{
     font-size: 10px;
     font-family: roboto;
 }
+.boto1{ display: flex;
+    width: 50px;
+    height: 15px;
+    border: 1px solid blue;
+    background-color: #4F8EF7;
+   justify-content: center;  
+   margin: 10px;
+}
+.boto2{
+    display: flex;
+    width: 65px;
+    height: 15px;
+    border: 1px solid  blue;
+    background-color: #4F8EF7;
+   justify-content: center; 
+   margin: 10px;
+}
+.boto3{
+    display: flex;
+    width: 65px;
+    height: 15px;
+    border: 1px solid blue;
+    background-color: #4F8EF7;
+   justify-content: center; 
+   margin: 10px;
+}
+.boto4{
+    display: flex;
+    width: 80px;
+    height: 15px;
+    border: 1px solid blue;
+    background-color: #4F8EF7;
+   justify-content: center; 
+   margin: 10px;
+}
+}
+}
+
