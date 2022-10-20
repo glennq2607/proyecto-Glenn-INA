@@ -1,104 +1,81 @@
 body{background-color: beige;}
 
-header{
-    
-    text-align: center;
-}
+header{ text-align: center;}
 
-nav li:hover{
-    background-color: rgb(240, 236, 20);
-}
-header,section,nav,footer{
-    height: 96%;
-    margin: 10px auto;
-}
+nav li:hover{background-color: rgb(240, 236, 20);}
+
+header,section,nav,footer{height: 96%;
+    margin: 10px auto;}
+
 article{ height: 300px;
     width: 50%;
-    padding: 10px;
-}
-section{
-    display: flex;
-}
+    padding: 10px;}
 
-#azul{
-    color: blue;
+section{display: flex;}
+
+#azul{color: blue;
     font-size: 30px;
-    font-family: roboto bolder;   
-}
-footer{
- background-color: chocolate;
- text-align: center;
-}
+    font-family: roboto bolder;}
 
-.rojo{
-    color: red;  
-}
-nav{
-    display: flex;
+footer{background-color: chocolate;
+ text-align: center;}
+
+.rojo{color: red;}
+
+nav{ display: flex;
     list-style: none;
-    justify-content: center;
-   
-}
-nav a{
-    text-decoration: none;
+    justify-content: center; }
+
+nav a{text-decoration: none;
     margin: 20px;
     color: azure;
 }
-.azul{
-    color: blue;
+.azul{color: blue;
     text-align: center;
-   margin: 10px auto; 
-}
-.article1 p{
-    margin-bottom: 10px;
-    text-indent: 5px;
+   margin: 10px auto; }
 
-}
-.article2 p{
-    margin-bottom: 5px;
-    text-indent: 5px;
-}
-.parrafo{
-    margin-bottom: 15px;
+.article1 p{ margin-bottom: 10px;
+    text-indent: 5px;}
+
+.article2 p{margin-bottom: 5px;
+    text-indent: 5px;}
+
+.parrafo{margin-bottom: 15px;
     text-indent: 20px;
     font-size: 10px;
-    font-family: roboto;
-}
+    font-family: roboto;}
+
 .boto1{ display: flex;
     width: 50px;
     height: 15px;
     border: 1px solid blue;
     background-color: #4F8EF7;
    justify-content: center;  
-   margin: 10px;
-}
-.boto2{
-    display: flex;
+   margin: 10px;}
+
+.boto2{display: flex;
     width: 65px;
     height: 15px;
     border: 1px solid  blue;
     background-color: #4F8EF7;
    justify-content: center; 
-   margin: 10px;
-}
-.boto3{
-    display: flex;
+   margin: 10px;}
+
+.boto3{display: flex;
     width: 65px;
     height: 15px;
     border: 1px solid blue;
     background-color: #4F8EF7;
    justify-content: center; 
-   margin: 10px;
-}
-.boto4{
-    display: flex;
+   margin: 10px;}
+
+.boto4{display: flex;
     width: 80px;
     height: 15px;
     border: 1px solid blue;
     background-color: #4F8EF7;
    justify-content: center; 
-   margin: 10px;
-}
-}
-}
+   margin: 10px;}
+
+
 
