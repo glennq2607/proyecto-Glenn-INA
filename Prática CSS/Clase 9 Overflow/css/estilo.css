@@ -1,0 +1,18 @@
+body{background-color: beige;}
+
+h2{
+    color: red;
+    font-size: 30px;
+}
+.caja1{ margin: 40px;
+    width: 260px;
+    height: 350px;
+    background-color: cadetblue;
+    padding: 15px;
+    text-align: justify;
+}
+.caja2{ overflow: hidden;
+}
+.caja3{
+    overflow: scroll;
+}
