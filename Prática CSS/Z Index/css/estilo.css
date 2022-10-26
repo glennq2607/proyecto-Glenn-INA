@@ -1,0 +1,31 @@
+body{background-color: beige;}
+
+.caja{
+    width: 400px;
+    height: 400px;
+    border:  2px solid blue;
+    margin: 30px auto;
+    background-color: hotpink;
+    box-shadow: 5px 6px black;
+    border-radius: 10px;
+}
+
+.figuras{
+    width: 130px;
+    position: relative; 
+}
+.fig1{
+   top: 80px;
+   left: 80px;
+z-index: 30;}
+
+.fig2{
+    top: 100px;
+    z-index: 10;
+}
+
+.fig3{
+    top: 70px;
+    right: 70px;
+    z-index: 20;
+}
