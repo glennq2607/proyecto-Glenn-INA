@@ -1,0 +1,22 @@
+body{background-color: beige;}
+
+#titulo{
+    margin: 40px;
+    width: 150px;
+    background-color: tomato;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 2px gray;
+    transform: skew(10deg,10deg)
+}
+
+.imagen{
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px gray;
+}
+.filtro{
+    filter:contrast(200%);
+}

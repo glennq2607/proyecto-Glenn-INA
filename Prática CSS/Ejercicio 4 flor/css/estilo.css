@@ -1,0 +1,55 @@
+body{background-color: #AEB27D;
+    background-image: url(../imagenes/Flor\ amarilla.jpg);
+}
+
+.menu ul{ display: flex;
+    font-size: 10px;
+    font-size: 10px;
+    padding: 5px;
+  
+}
+
+.menu a{ 
+    text-decoration: none;
+    padding: 10px;    
+}
+.form{
+    display: block;
+}
+.H2, H3{
+    color: white;
+}
+.sec{
+    background-color: white; line-height: 1.5;
+}
+.contenedor{ text-align: center;
+    width: 145px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    left:100px;
+    bottom: 40px;
+}
+.contenedor a{ 
+    text-decoration: none;
+    color: black;
+}
+.contenedor2{ border: 1px solid black;
+    width: 180px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    left: 300px;
+    bottom:200px;
+}
+.imagen{
+    position: relative;
+    top: 100px;
+}
+
+
+
+

@@ -1,0 +1,25 @@
+body{background-color: beige;}
+
+.contenedor{
+ display: flex;
+    justify-content: space-evenly;
+}
+
+.items{
+    width: 120px;
+margin: 20px;
+}
+.items header, .items footer{
+    background-color: black;
+    height: 24px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+.items section{
+height: 110px;
+padding: 10px;
+background-color: azure;
+font-size: 10px;
+}

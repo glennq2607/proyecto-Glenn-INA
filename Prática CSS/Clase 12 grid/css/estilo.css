@@ -1,0 +1,26 @@
+body{background-color: beige;}
+
+.grid{
+    height: 1000px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-areas: "encabezado encabezado"
+                        "menu menu"
+                        "cuerpo cuerpo"
+                        "pie pie";
+    grid-template-rows: 10% 10% auto 10%;
+}
+header{
+    grid-area: encabezado;
+    background-color: aquamarine;
+}
+
+nav{ grid-area: menu;
+    background-color: darkorange;
+}
+section{ grid-area: cuerpo;
+    background-color: whitesmoke;
+}
+footer{ grid-area: pie;
+    background-color: blue;
+}

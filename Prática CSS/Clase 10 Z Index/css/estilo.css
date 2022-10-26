@@ -12,20 +12,17 @@ body{background-color: beige;}
 
 .figuras{
     width: 130px;
-    position: relative; 
+ 
 }
 .fig1{
-   top: 80px;
-   left: 80px;
-z-index: 30;}
+}
 
 .fig2{
-    top: 100px;
-    z-index: 10;
+    position: absolute;
+    top: 150px;
+
 }
 
 .fig3{
-    top: 70px;
-    right: 70px;
-    z-index: 20;
+   
 }
