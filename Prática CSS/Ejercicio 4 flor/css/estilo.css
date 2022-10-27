@@ -1,55 +1,35 @@
 body{background-color: #AEB27D;
-    background-image: url(../imagenes/Flor\ amarilla.jpg);
+    background-image: url(../imagenes/flor-de-loto.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.menu ul{ display: flex;
-    font-size: 10px;
-    font-size: 10px;
+nav a{ 
+    text-decoration: none;
     padding: 5px;
-  
-}
+    font-size: 10px;
 
-.menu a{ 
-    text-decoration: none;
-    padding: 10px;    
 }
-.form{
-    display: block;
-}
-.H2, H3{
+.cajamenu, .cajaformulario{background-color: black;
+color: black;
+padding: 15px;}
+h3{
     color: white;
-}
-.sec{
-    background-color: white; line-height: 1.5;
-}
-.contenedor{ text-align: center;
-    width: 145px;
-    height: 120px;
-    border: 1px solid black;
-    background-color: black;
-    position: relative;
-    left:100px;
-    bottom: 40px;
-}
-.contenedor a{ 
-    text-decoration: none;
-    color: black;
-}
-.contenedor2{ border: 1px solid black;
-    width: 180px;
-    height: 100px;
-    margin: 20px;
     text-align: center;
-    background-color: black;
-    position: relative;
-    left: 300px;
-    bottom:200px;
 }
-.imagen{
+.cajamenu{
+    width: 90px;
     position: relative;
-    top: 100px;
+    top: 90px;
+    left: 250px;
 }
+.cajamenu ul{background-color:white;
+padding: 8px;}
+.cajamenu li{margin-bottom: 8px;}
 
-
-
-
+.cajaformulario{
+    width: 170px;
+    position: relative;
+   top: 90px;
+   left: 500px;
+}

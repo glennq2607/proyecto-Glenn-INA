@@ -1,0 +1,112 @@
+body{background-color: beige;}
+
+header,nav,section,aside,footer{
+    background-color: #f5ebdc;}
+.grid{
+    padding: 20px;
+    display: grid;
+    height: 1200px;
+    grid-template-areas: "encabezado encabezado"
+                            "menu menu"
+                            "cuerpo lateral"
+                            "pie pie";
+                            grid-template-rows: 4% 4% auto 4%;
+                            grid-template-columns: 100%;
+                        }
+
+header{ background-color: #0A1128;
+    grid-area: encabezado; 
+}
+
+nav{ background-color: #FAFAFF;
+    grid-area: menu;
+    display: flex;
+}
+
+nav a{ 
+    text-decoration: none;
+    padding: 20px;
+    color: #0A1128;
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: bolder;  
+}
+nav a:hover{
+    color: #FDB833; 
+}
+section{ grid-area: cuerpo;
+background-color: #FAFAFF ;}
+
+.galeria1{ margin: 20px auto;
+    width: 625px;
+    height: 200px;
+    border: 1px solid black;
+}
+.stella{width: 625px;
+    height: 200px;}
+
+footer{grid-area: pie;
+    height: 300px;
+background-color: #0A1128;}
+
+h3{ color: white;
+margin: 4px;}
+
+.redes{ width: 20px;
+    height: 40px;
+    position: relative;
+    left: 70px;
+    bottom: 28px;
+  
+}
+.barra{
+    width: 200px;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+}
+.imagen{margin: 10px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 18px;
+}
+.icon{ width: 25px;
+    height: 25px;
+position: relative;
+bottom: 34px;
+left:200px;}
+
+.art1, .art2, .art3{ color: white;}
+
+.art1{
+width: 160px;
+padding: 10px;
+position: relative;
+left: 40px;
+}
+.art2{
+    width: 200px;
+    height: 110px;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.art3{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    position: relative;
+    left: 350px;
+    bottom: 280px;
+}
+.h2{color: #FDB833;}
+.fixed{ width: 30px;
+    height: 30px;
+    display: block;
+    margin: 5px;
+    position: relative;
+    left: 550px;
+    bottom: 320px;
+}
