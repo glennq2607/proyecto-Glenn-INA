@@ -42,12 +42,24 @@ background-color: #FAFAFF ;}
     height: 200px;
     border: 1px solid black;
 }
-.stella{width: 625px;
-    height: 200px;}
+.banner{ margin:20px;
+    width: 1270px;
+    height: 400px;}
+
+.video{
+    text-align: center;
+}
 
 footer{grid-area: pie;
     height: 300px;
 background-color: #0A1128;}
+
+#H1{ margin: 20px;
+    color: #0A1128;
+    font-family: roboto;
+font-size: 40px;
+text-align: center;}
+
 
 h3{ color: white;
 margin: 4px;}
@@ -56,14 +68,12 @@ margin: 4px;}
     height: 40px;
     position: relative;
     left: 70px;
-    bottom: 28px;
-  
-}
-.barra{
+    bottom: 28px;}
+.barra{ 
     width: 200px;
     position: relative;
     bottom: 10px;
-    left: 100px;
+    left: 450px;
 }
 .imagen{margin: 10px;
     width: 40px;
@@ -75,7 +85,7 @@ margin: 4px;}
     height: 25px;
 position: relative;
 bottom: 34px;
-left:200px;}
+left:900px;}
 
 .art1, .art2, .art3{ color: white;}
 
@@ -109,4 +119,8 @@ left: 40px;
     position: relative;
     left: 550px;
     bottom: 320px;
+}
+
+.grid p{
+    font-family: roboto;
 }
