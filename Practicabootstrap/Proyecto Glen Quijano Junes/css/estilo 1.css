@@ -1,0 +1,10 @@
+body{background-color: beige;}
+
+.nav{
+    background-color: #FAFAFF;
+}
+.nav a{
+    color: #0A1128;
+    font-family: roboto;
+    font-weight: bold;
+}
