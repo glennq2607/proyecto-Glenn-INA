@@ -1,0 +1,10 @@
+body{background-color: beige;}
+
+
+h1{
+    color: blue;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 20px;
+}
