@@ -21,6 +21,7 @@
     if(menor>n3)
         menor=n3;
 
+
          document.write("El número mayor es "+mayor); 
          document.write("<br>") 
          document.write("El número menor es "+menor);

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-1 text-center text-primary">Cálculo del IVA 13%</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+         <div class="mt-3">
+          <label class=" form-label display-6" >Escriba el precio</label>
+          <input  class="form-control" id="control1">
+          <label class=" form-label display-6" >Escriba el nombre del artículo</label>
+          <input  class="form-control" id="control2">
+          <button onclick="calcular(document.getElementById('control1').value)" class="mt-3 btn btn-primary d-block mx-auto">Calcular IVA</button>
+          <button onclick="nombrar(document.getElementById('control2').value)" class="mt-3 btn btn-primary d-block mx-auto">Convertir a Mayúscula</button>
+         </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2 id="result" class="mt-2 display-1 text-center text-secundary"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/codigo.js"></script>
+</body>
+</html>
