@@ -10,50 +10,50 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
- <div class="container m-5 bg-info">
-  <div class="caja">
-    <img class="img-fluid d-block mx-auto" src="imagenes/Tipo Cambio.png"  alt="">
-  </div>
-  <div class="row">
-    <div class="col">
-    <button class=" btn btn-secondary m-3">Calcular</button>
+  <div class="container mt-4 bg-info rounded-3">
+    <div class="caja">
+      <img class="img-fluid d-block mx-auto" src="imagenes/Tipo Cambio.png" alt="">
     </div>
-    <div class="col">
-      <h2>Glen Quijano Junes</h2>
+    <div class="row">
+      <div class="col">
+      <button onclick="tipocambio()" class=" btn btn-secondary m-3">Calcular</button>
+      </div>
+      <div class="col">
+        <h2>Glen Quijano Junes</h2>
+      </div>
+      <div class="col">
+      
+      </div>
     </div>
-    <div class="col">
-    
+    <div class="row m-2 d-flex justify-content-center align-items-center">
+      <div class="col">
+        <img src="imagenes/EEUU.png" height="50" width="60" alt="">
+      </div>
+      <div class="col text-danger fw-semibold" id="xdolar">0</div>
+      <div class="col fw-bold">Dolar</div>
     </div>
-  </div>
-  <div class="row m-2 d-flex justify-content-center align-items-center">
-    <div class="col">
-      <img src="imagenes/EEUU.png" height="50" width="60" alt="">
+    <div class="row m-2 d-flex justify-content-center align-items-center">
+      <div class="col">
+        <img src="imagenes/Europa.png" height="50" width="60" alt="">
+      </div>
+      <div class="col text-danger fw-semibold" id="xeuro" >0</div>
+      <div class="col fw-bold">Euro</div>
     </div>
-    <div class="col text-danger fw-semibold">0</div>
-    <div class="col fw-bold">Dolares</div>
-  </div>
-  <div class="row m-2 d-flex justify-content-center align-items-center">
-    <div class="col">
-      <img src="imagenes/Europa.png" height="50" width="60" alt="">
+    <div class="row m-2 d-flex justify-content-center align-items-center">
+      <div class="col">
+        <img src="imagenes/Inglaterra.png" height="50" width="60" alt="">
+      </div>
+      <div class="col text-danger fw-semibold" id="xlibra">0</div>
+      <div class="col fw-bold">Libra</div>
     </div>
-    <div class="col text-danger fw-semibold">0</div>
-    <div class="col fw-bold">Euros</div>
-  </div>
-  <div class="row m-2 d-flex justify-content-center align-items-center">
-    <div class="col">
-      <img src="imagenes/Inglaterra.png" height="50" width="60" alt="">
+    <div class="row m-2 d-flex justify-content-center align-items-center">
+      <div class="col">
+        <img src="imagenes/México.png" height="50" width="60" alt="">
+      </div>
+      <div class="col text-danger fw-semibold " id="xpeso">0</div>
+      <div class="col fw-bold">Peso</div>
     </div>
-    <div class="col text-danger fw-semibold">0</div>
-    <div class="col fw-bold">Libras</div>
-  </div>
-  <div class="row m-2 d-flex justify-content-center align-items-center">
-    <div class="col">
-      <img src="imagenes/México.png" height="50" width="60" alt="">
-    </div>
-    <div class="col text-danger fw-semibold">0</div>
-    <div class="col fw-bold">Pesos</div>
-  </div>
- </div>
+   </div>
     
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/codigo.js"></script>
