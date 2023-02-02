@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+ <div class="container">
+  <h1 class="titulo text-center text-white bg-dark m-3">Mi primer Calculadora</h1>
+  <table class="table m-3 mx-auto border border=”1” bg-info text-light text-center">
+  
+<tr>
+<td  colspan="5" class="text-end"><input type="text" id="resultado"></td>
+        
+</tr>
+<tr>
+<td></td>
+<td id="borrar" onclick="eliminar()" class="bg-danger">CE</td>
+<td id="borrar todo" onclick="borrar()">C</td>
+<td id="pos-neg" onclick="negativo()">±</td>
+<td id="raiz cuadrada" onclick="raizcuadrada()">√</td>
+</tr>
+<tr>
+    <td id="siete"  onclick="mostrar('7')">7</td>
+    <td id="ocho"  onclick="mostrar('8')">8</td>
+    <td id="nueve"  onclick="mostrar('9')">9</td>
+    <td id="dividir"  onclick="mostrar('/')">/</td>
+    <td id="porcentaje"  onclick="porcentaje()">%</td>
+</tr>
+<tr>
+<td id="cuatro"  onclick="mostrar('4')">4</td>
+<td id="cinco"  onclick="mostrar('5')">5</td>
+<td id="seis"  onclick="mostrar('6')">6</td>
+<td id="multiplicar"  onclick="mostrar('*')">*</td>
+<td id="fraccion"  onclick="mostrar('1/x')">1/x</td>
+</tr>
+
+
+<tr>
+      <td></td>
+<td id="uno" onclick="mostrar('1')">1</td>
+<td id="dos" onclick="mostrar('2')">2</td>
+<td id="tres" onclick="mostrar('3')">3</td>
+<td id="igual" onclick="igual()" rowspan="2" class="text-center">
+  =</td>
+</tr>
+<tr>
+
+<td id="cero" onclick="mostrar('0')" colspan="2" class="text-center">0</td>
+<td id="punto" onclick="mostrar('.')">.</td>
+<td id="mas" onclick="mostrar('+')">+</td>
+</tr> 
+
+</table>
+</div>
+    
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/codigo.js"></script>
+</body>
+</html>

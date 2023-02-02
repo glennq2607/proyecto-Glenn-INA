@@ -1,0 +1,24 @@
+body{background-color: beige;}
+
+
+div{
+    border: 4px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.rojo{
+    background-color: red;
+    color: aliceblue;
+}
+
+.azul{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.verde{
+    background-color: green;
+    color: black;
+}

@@ -1,0 +1,9 @@
+body{background-color: beige;}
+
+.formato{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: verdana;
+}
