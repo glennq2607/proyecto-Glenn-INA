@@ -2,18 +2,29 @@ body{background-color: beige;}
 
 .container{
     display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 .galeria{
     margin: 20px;
     border-radius: 15px;
-    width: 180px;
+    width: 100%;
+    height: auto;
+    
+   
 }
 
+#cambio{
+    width: 400px;
+    height: 400px;
+    margin: 40px;
+}
 
 
 h2{
     text-align: center;
+    
 }
 
 

@@ -1,20 +1,17 @@
 $(function(){
     $("#mandarina").click(function(){
-        let galeria=$("#mandarina").attr("scr");
+        let galeria=$("#mandarina").attr("src");
         $("#cambio").attr("src", galeria);
-        $("#cambio").css("display", "flex");
 
     });
     $("#tomate").click(function(){
-        let galeria=$("#tomate").attr("scr");
+        let galeria=$("#tomate").attr("src");
         $("#cambio").attr("src", galeria);
-        $("#cambio").css("display", "flex");
-
+    
     });
     $("#pera").click(function(){
-        let galeria=$("#pera").attr("scr");
-        $("#cambio").attr("src", galeria);
-        $("#cambio").css("display", "flex");
+        let galeria=$("#pera").attr("src");
+        $("#cambio").attr("src", galeria);   
 
     });
 
