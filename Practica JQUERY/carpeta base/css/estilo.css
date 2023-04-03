@@ -1,1 +1,19 @@
 body{background-color: beige;}
+
+.titulo{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.caja{
+    width: 80%;
+    height: 50px;
+    margin: 10px auto;
+    background: tomato;
+}
+
+.tama{
+    width: 25vw;
+}

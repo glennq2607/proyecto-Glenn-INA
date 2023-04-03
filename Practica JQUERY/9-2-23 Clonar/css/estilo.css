@@ -1,0 +1,41 @@
+body{background-color: beige;}
+
+section>h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: blue;
+    margin: 20px auto;
+}
+
+
+section>p{
+    margin: 10px;
+    text-align: justify;
+}
+
+
+.formato{
+    color: blue;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.formato1{
+    color:red;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+div button{
+    font-size: 15px;
+    background-color: rgba(165, 42, 42, 0.589);
+    padding: 20px;
+}

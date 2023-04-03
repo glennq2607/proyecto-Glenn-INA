@@ -1,0 +1,16 @@
+body{background-color: beige;}
+
+.formato{
+text-align:center;
+font-size: 40px;
+color: red;
+text-decoration: underline;
+margin: 20px;
+
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

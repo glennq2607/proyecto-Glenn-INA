@@ -21,3 +21,6 @@ function porcentaje(){
 function igual(){
     resultado.value=eval(resultado.value);
 }
+document.getElementById("fraccion").addEventListener("click", function(){
+    resultado.value = (1/(parseFloat(resultado.value))).toString();
+});
