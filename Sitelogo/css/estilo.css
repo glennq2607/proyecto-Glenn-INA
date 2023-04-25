@@ -1,0 +1,12 @@
+body{background-color: beige;}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100vh;
+    list-style: none;
+}
